@@ -8,7 +8,7 @@ void setup() {
   
   // start serial comms to log values in serial monitor
   // set bps (bits per sec) to 115200; match it to monitor's baud
-  Serial.begin(115200); 
+  Serial.begin(9600); 
 }
 
 void loop() {
