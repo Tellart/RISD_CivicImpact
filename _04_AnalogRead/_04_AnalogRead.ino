@@ -11,8 +11,9 @@ void setup() {
 }
 
 void loop() {
-  // use analogRead() to get current value
-  potentiometer = analogRead(0);
+  // use analogRead() to get current value.
+  // This value range from 0 - 1023
+  potentiometer = analogRead(A0);
 
   Serial.println(potentiometer);
 
