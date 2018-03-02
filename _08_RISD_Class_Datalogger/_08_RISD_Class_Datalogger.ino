@@ -65,7 +65,7 @@ void loop() {
   value = analogRead(PIN_ANALOG_IN);
 
   // pause for 1 second
-  delay(5000);
+  delay(100);
 
   
   // make a string for assembling the data to log:

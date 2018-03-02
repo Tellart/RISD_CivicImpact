@@ -1,24 +1,22 @@
-/*
-Variables
-by Epic
-
-This sketch shows the basics about variables
-*/
 
 // Global variable
-int counter;
+int animal;
 
 
 void setup() {
   // whatever is in here will run once
+  
+  Serial.begin(9600);
 
-  counter = 0;
+  animal = 0;
   
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  
-  counter = counter + 1;
+  Serial.println(animal);
+  animal = animal + 1;
+
+  delay(1000);
 
 }

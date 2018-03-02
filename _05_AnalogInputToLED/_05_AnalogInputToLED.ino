@@ -1,5 +1,5 @@
 const int analogInPin = A0;  // input pin for analog sensor (mic or pot)
-const int analogOutPin = 13; // output pin for LED (using PWM)
+const int analogOutPin = 11; // output pin for LED (using PWM)
 
 int sensorValue = 0; // analog value read from analog input
 int outputValue = 0; // value output as PWM (analog out)
